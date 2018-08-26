@@ -1,0 +1,46 @@
+.card {
+    display: inline-block;
+    style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d03e35;
+    flex-flow: wrap;
+    transition:  all .5s;
+    display: flex;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-flow: wrap;
+    transition:  all .5s;
+    display: flex;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #d03e35;
+  }
+  
+  .card:hover {
+  
+    transition:  all .3s;
+    transform: scale(1.05)
+  }
+  
+  .card .card-pic {
+    width: 49%;
+    height: 70%;
+    margin-left: 1%;
+  }
+  
+  .card .card-info {
+    width: 49%;
+    height: 70%;
+  }
+  
+  .card .card-info li{
+    margin-top: 10px;
+  }
+  
+  
